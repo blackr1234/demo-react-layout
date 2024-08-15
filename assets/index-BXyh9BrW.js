@@ -82,6 +82,7 @@ Error generating stack: `+i.message+`
 				place-items: center;
 			`,children:[...Array(5).keys()].map(r=>$("div",{style:{margin:"0.75rem 0"},children:Ve("button",{css:zt`
 							padding: 0.75rem 2rem;
+							color: white;
 							background-color: ${t.pathname===`/tabs/${r+1}`?"#ef5350":"#ef9a9a"};
 							font-weight: ${t.pathname===`/tabs/${r+1}`?"bold":"normal"};
 							border: none;
@@ -112,7 +113,7 @@ Error generating stack: `+i.message+`
 					padding: 1rem;
 					width: 100%;
 					min-width: 0;
-				`,children:[$("span",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),$("span",{children:" Commit: "}),$("span",{title:"9569c0024658eb2c83cd28bf2a79abef680db736",style:{cursor:"help"},children:"9569c00"})]})})}function Vn(e){return Ve("div",{css:zt`
+				`,children:[$("span",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),$("span",{children:" Commit: "}),$("span",{title:"705bf6514bcc7114595a46dd232caae16bd7a2d0",style:{cursor:"help"},children:"705bf65"})]})})}function Vn(e){return Ve("div",{css:zt`
 				display: flex;
 				flex-direction: column;
 				flex: 9;
