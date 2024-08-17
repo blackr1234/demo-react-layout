@@ -100,11 +100,16 @@ Error generating stack: `+i.message+`
 				background: linear-gradient(to bottom right, #bbdefb 40%, white);
 			`,children:we("table",{style:{width:"100%",minWidth:"0"},children:[O("thead",{style:{background:"linear-gradient(to right, #fff59d 40%, white)"},children:O("tr",{children:[...Array(20).keys()].map(t=>we("th",{children:[we("div",{children:["Col ",t+1]}),O("div",{children:O("input",{css:zt`
 											width: 100%;
+											border: 0.1rem solid #64b5f6;
+											border-radius: 0;
+											line-height: 1.5rem;
+											font-size: 1rem;
+											color: #1e88e5;
 										`})})]},t))})}),O("tbody",{children:[...Array(200).keys()].map(t=>O("tr",{children:[...Array(20).keys()].map(n=>we("td",{children:["r",t+1," c",n+1]},n))},t))})]})})}function D0(e){return we("div",{className:"flex-div",css:zt`
 				flex: 1;
 				min-height: 3rem;
 				background: linear-gradient(to right, #ffe0b2 40%, white);
-			`,children:[O("h1",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),O("span",{children:" Commit: "}),O("span",{title:"766981d9a3731efebc10239bbfafde9ef01298bb",style:{cursor:"help"},children:"766981d"}),O("h1",{children:"foo"}),O("h1",{children:"foo"}),O("h1",{children:"foo"})]})}function j0(e){return we("div",{style:{display:"flex",flexDirection:"column",width:"100%",minHeight:"100%"},children:[O(M0,{}),O(F0,{}),O(D0,{})]})}function Vn(e){return O("div",{className:"flex-div flex-container",css:zt`
+			`,children:[O("h1",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),O("span",{children:" Commit: "}),O("span",{title:"f65c5d35b1bc86c3bbc63d5f5f56e0f2da94950d",style:{cursor:"help"},children:"f65c5d3"}),O("h1",{children:"foo"}),O("h1",{children:"foo"}),O("h1",{children:"foo"})]})}function j0(e){return we("div",{style:{display:"flex",flexDirection:"column",width:"100%",minHeight:"100%"},children:[O(M0,{}),O(F0,{}),O(D0,{})]})}function Vn(e){return O("div",{className:"flex-div flex-container",css:zt`
 				flex: 7;
 				flex-direction: column;
 				background: black;
