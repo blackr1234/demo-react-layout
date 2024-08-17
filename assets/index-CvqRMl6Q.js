@@ -901,7 +901,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 				flex: 1;
 				min-height: 3rem;
 				background: linear-gradient(to right, #ffe0b2 40%, white);
-			`,children:[P("h1",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),P("span",{children:" Commit: "}),P("span",{title:"be88c7fff35b0e6133f17ccd17b8c80bd0a5bd1f",style:{cursor:"help"},children:"be88c7f"}),P("h1",{children:"foo"}),P("h1",{children:"foo"}),P("h1",{children:"foo"})]})}function xL(c){return L1("div",{style:{display:"flex",flexDirection:"column",width:"100%",minHeight:"100%"},children:[P(CL,{}),P(LL,{}),P(gL,{})]})}function H4(c){return P("div",{className:"flex-div flex-container",css:t2`
+			`,children:[P("h1",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),P("span",{children:" Commit: "}),P("span",{title:"ed2a0a4bb2a26b9cee913b571a30c4684469ca87",style:{cursor:"help"},children:"ed2a0a4"}),P("h1",{children:"foo"}),P("h1",{children:"foo"}),P("h1",{children:"foo"})]})}function xL(c){return L1("div",{style:{display:"flex",flexDirection:"column",width:"100%",minHeight:"100%"},children:[P(CL,{}),P(LL,{}),P(gL,{})]})}function H4(c){return P("div",{className:"flex-div flex-container",css:t2`
 				flex: 5;
 				flex-direction: column;
 				background: black;
