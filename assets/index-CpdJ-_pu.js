@@ -113,7 +113,7 @@ Error generating stack: `+i.message+`
 					padding: 1rem;
 					width: 100%;
 					min-width: 0;
-				`,children:[$("span",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),$("span",{children:" Commit: "}),$("span",{title:"705bf6514bcc7114595a46dd232caae16bd7a2d0",style:{cursor:"help"},children:"705bf65"})]})})}function Vn(e){return Ve("div",{css:zt`
+				`,children:[$("span",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),$("span",{children:" Commit: "}),$("span",{title:"e0509bb39beb7410b70185f895edff4f0526bc1b",style:{cursor:"help"},children:"e0509bb"})]})})}function Vn(e){return Ve("div",{css:zt`
 				display: flex;
 				flex-direction: column;
 				flex: 9;
