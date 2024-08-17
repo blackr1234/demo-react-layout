@@ -862,7 +862,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 								background-color: #ef5350;
 							}
 						}
-					`,onClick:()=>n(`/tabs/${i+1}`),children:[P(j0,{icon:Je[i].icon}),!a&&P("span",{css:t2`
+					`,onClick:()=>n(`/tabs/${i+1}`),children:[P(j0,{icon:Je[i].icon}),!a&&P("span",{className:"desktop-only",css:t2`
 								margin-left: 0.5rem;
 								overflow: hidden;
 								text-wrap: nowrap;
@@ -901,7 +901,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 				flex: 1;
 				min-height: 3rem;
 				background: linear-gradient(to right, #ffe0b2 40%, white);
-			`,children:[P("h1",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),P("span",{children:" Commit: "}),P("span",{title:"9cf315b9d9f0bac5010e9f9c6ef821e5eb4d5dda",style:{cursor:"help"},children:"9cf315b"}),P("h1",{children:"foo"}),P("h1",{children:"foo"}),P("h1",{children:"foo"})]})}function xL(c){return L1("div",{style:{display:"flex",flexDirection:"column",width:"100%",minHeight:"100%"},children:[P(CL,{}),P(LL,{}),P(gL,{})]})}function H4(c){return P("div",{className:"flex-div flex-container",css:t2`
+			`,children:[P("h1",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),P("span",{children:" Commit: "}),P("span",{title:"cacbb8e2e3579e23e84cb5bdb872672cf72b8c67",style:{cursor:"help"},children:"cacbb8e"}),P("h1",{children:"foo"}),P("h1",{children:"foo"}),P("h1",{children:"foo"})]})}function xL(c){return L1("div",{style:{display:"flex",flexDirection:"column",width:"100%",minHeight:"100%"},children:[P(CL,{}),P(LL,{}),P(gL,{})]})}function H4(c){return P("div",{className:"flex-div flex-container",css:t2`
 				flex: 5;
 				flex-direction: column;
 				background: black;
