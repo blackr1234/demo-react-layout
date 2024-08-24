@@ -711,7 +711,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 			background: #5e35b1;
 		}
 	}
-`,zg=[{icon:"fa-solid fa-house",title:"Home"},{icon:"fa-solid fa-chart-simple",title:"Finance"},{icon:"fa-solid fa-chart-pie",title:"Management cost and efficiency report"},{icon:"fa-solid fa-flag",title:"Incidents"},{icon:"fa-solid fa-gear",title:"Settings"},{icon:"fa-solid fa-1",title:"foo"},{icon:"fa-solid fa-2",title:"foo"},{icon:"fa-solid fa-3",title:"foo"},{icon:"fa-solid fa-4",title:"foo"},{icon:"fa-solid fa-5",title:"foo"},{icon:"fa-solid fa-6",title:"foo"},{icon:"fa-solid fa-7",title:"foo"},{icon:"fa-solid fa-8",title:"foo"},{icon:"fa-solid fa-9",title:"foo"}];function Lg(c){const{expanded:e=!0}=c,[l,n]=S.useState(!1),[s,t]=S.useState(e),a=p0(),o=xt(),r=l||s;return C2("div",{className:"flex-div nav-menu-flex-container",css:fg({showAsExpanded:r,isHovered:l,isExpanded:s}),onMouseEnter:()=>n(!0),onMouseOver:()=>n(!0),onMouseLeave:()=>n(!1),children:[I("div",{}),zg.map((i,u)=>C2("button",{className:"flex-container",css:ug({showAsExpanded:r,isActive:a.pathname===`/tabs/${u+1}`}),title:i.title,onClick:()=>o(`/tabs/${u+1}`),children:[I(_6,{icon:i.icon}),r&&I("span",{className:"desktop-only",css:mg,children:i.title})]},u)),I("div",{}),I("button",{className:"desktop-only",css:pg,onClick:()=>t(i=>!i),children:I(_6,{icon:"fa-solid fa-indent"})})]})}function dg(c){const e=p0();return console.log(e.pathname),C2("div",{className:"flex-div",css:E2`
+`,zg=[{icon:"fa-solid fa-house",title:"Home"},{icon:"fa-solid fa-chart-simple",title:"Finance"},{icon:"fa-solid fa-chart-pie",title:"Management cost and efficiency report"},{icon:"fa-solid fa-flag",title:"Incidents"},{icon:"fa-solid fa-gear",title:"Settings"},{icon:"fa-solid fa-1",title:"foo"},{icon:"fa-solid fa-2",title:"foo"},{icon:"fa-solid fa-3",title:"foo"},{icon:"fa-solid fa-4",title:"foo"},{icon:"fa-solid fa-5",title:"foo"},{icon:"fa-solid fa-6",title:"foo"},{icon:"fa-solid fa-7",title:"foo"},{icon:"fa-solid fa-8",title:"foo"},{icon:"fa-solid fa-9",title:"foo"}];function Lg(c){const[e,l]=S.useState(!1),[n,s]=S.useState(!0),t=p0(),a=xt(),o=e||n;return C2("div",{className:"flex-div nav-menu-flex-container",css:fg({showAsExpanded:o,isHovered:e,isExpanded:n}),onMouseEnter:()=>l(!0),onMouseOver:()=>l(!0),onMouseLeave:()=>l(!1),children:[I("div",{}),zg.map((r,i)=>C2("button",{className:"flex-container",css:ug({showAsExpanded:o,isActive:t.pathname===`/tabs/${i+1}`}),title:r.title,onClick:()=>a(`/tabs/${i+1}`),children:[I(_6,{icon:r.icon}),o&&I("span",{className:"desktop-only",css:mg,children:r.title})]},i)),I("div",{}),o&&I("button",{className:"desktop-only",css:pg,onClick:()=>s(r=>!r),children:I(_6,{icon:"fa-solid fa-indent"})})]})}function dg(c){const e=p0();return console.log(e.pathname),C2("div",{className:"flex-div",css:E2`
 				flex: 1;
 				min-height: 3rem;
 				background: linear-gradient(to right, #e1bee7 40%, white);
@@ -733,9 +733,9 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
 				flex: 1;
 				min-height: 3rem;
 				background: linear-gradient(to right, #ffe0b2 40%, white);
-			`,children:[I("h1",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),I("span",{children:" Commit: "}),I("span",{title:"7d9aac04db1a6e60e25d3e19db700f1d8d6738bd",css:E2`
+			`,children:[I("h1",{children:"footer - Copyright © 2024 Chung Cheuk Hang Michael. All rights reserved."}),I("span",{children:" Commit: "}),I("span",{title:"4372ac3645df72205aaad70673273e96a9cc96dd",css:E2`
 					cursor: help;
-				`,children:"7d9aac0"}),I("h1",{children:"foo"}),I("h1",{children:"foo"}),I("h1",{children:"foo"})]})}function Cg(c){let{tabId:e}=HM();return console.log(e),C2("div",{className:"flex-div flex-container",css:E2`
+				`,children:"4372ac3"}),I("h1",{children:"foo"}),I("h1",{children:"foo"}),I("h1",{children:"foo"})]})}function Cg(c){let{tabId:e}=HM();return console.log(e),C2("div",{className:"flex-div flex-container",css:E2`
 				flex: 15;
 				flex-direction: column;
 			`,children:[I(dg,{}),I(Mg,{}),I(hg,{})]})}function gg(){return C2("div",{className:"flex-container",css:E2`
